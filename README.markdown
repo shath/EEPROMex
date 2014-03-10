@@ -28,6 +28,7 @@ bool readBit(int address, byte bit)
 uint8_t readByte(int address);
 uint16_t readInt(int address);
 uint32_t readLong(int address);
+uint64_t readLongLong(int address);
 float readFloat(int address);
 double readDouble(int address);
 ```
@@ -40,6 +41,7 @@ bool write(int address, uint8_t value);
 bool writeByte(int address, uint8_t value);
 bool writeInt(int address, uint16_t value);
 bool writeLong(int address, uint32_t value);
+bool writeLongLong(int address, uint64_t value);
 bool writeFloat(int address, float value);
 bool writeDouble(int address, double value);
 ```
