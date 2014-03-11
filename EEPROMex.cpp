@@ -85,6 +85,10 @@ int EEPROMClassEx::getAddress(int noOfBytes){
 #endif
 	return availableaddress;		
 }
+
+int EEPROMClassEx::getWriteCount(void) {
+	return EEPROMClassEx::_writeCounts;
+}
  
 
 bool EEPROMClassEx::isReady() {

@@ -63,6 +63,7 @@ class EEPROMClassEx
     void 	 setMemPool(int base, int memSize);
 	void  	 setMaxAllowedWrites(int allowedWrites);
 	int 	 getAddress(int noOfBytes);
+	int 	 getWriteCount();
     
 	uint8_t  read(int);	
 	bool 	 readBit(int, byte);
