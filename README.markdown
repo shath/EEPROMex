@@ -14,6 +14,7 @@ Two new functions
 ```
 uint64_t readLongLong(int address);
 bool writeLongLong(int address, uint64_t value);
+int getWriteCount();
 ```
 
 Not implemented yet
